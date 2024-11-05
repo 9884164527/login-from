@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+
+    background-image: url(https://img.freepik.com/free-photo/futuristic-moon-background_23-2150930768.jpg?t=st=1729866077~exp=1729869677~hmac=66cee76c90233642246fbdd7282d9f79dfc3e0d5f10d6728e6085d97c116819e&w=996);
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+    background-color: rgba(255, 255, 255, 0.9) transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(2px);
+}
+
+
+label {
+
+
+    display: flex;
+
+}
+
+.user,
+.password {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    gap: 10px;
+}
+
+#username,
+#password {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    caret-color: #9b59b6;
+    border: none;
+    outline: none;
+}
+
+#checkbox {
+    margin-left: 5px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 150px;
+    height: 40px;
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: linear-gradient(45deg, #00bae0, #007dff);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5mm;
+}
+
+button:hover {
+    background: linear-gradient(45deg, #007dff, #00bae0);
+    
+}
