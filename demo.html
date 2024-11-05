@@ -34,6 +34,8 @@
             width: 80%;
             height: 100vh;
             background-color: slateblue;
+            display: flex;
+            justify-content: center;
         }
 
         .title {
@@ -87,7 +89,7 @@
                 document.getElementById('content').innerHTML = "<object type=text/html data=about.html></object>";
             }
             else if (page === 'services') {
-                document.getElementById('content').innerHTML = "<object type=text/html data=servies.html></object>";
+                document.getElementById('content').innerHTML = "<object type=text/html data=services.html></object>";
             }
             else if (page === 'contact') {
                 document.getElementById('content').innerHTML = "<object type=text/html data=contact.html></object>";
@@ -108,10 +110,10 @@
         <img src="https://img.freepik.com/premium-photo/cute-boy-black-white-book-cover-illustration-art_972667-6171.jpg"
             alt="boy" />
         <h2 id="message">Welcome</h2>
-        <button onclick="loadpage(home)" >Home</button>
-        <button onclick="loadpage(about)" >About</button>
-        <button onclick="loadpage(services)">Services</button>
-        <button onclick="loadpage(contact)">Contact</button>
+        <button onclick="loadpage('home')" >Home</button>
+        <button onclick="loadpage('about')" >About</button>
+        <button onclick="loadpage('services')">Services</button>
+        <button onclick="loadpage('contact')">Contact</button>
         <button class="logout" onclick="logout()">Logout</button>
     </div>
 
