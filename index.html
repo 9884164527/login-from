@@ -16,6 +16,7 @@
         if ((email ==='admin@gmail.com') && password ==='admin') {
             localStorage.setItem('username', email);
             window.location.href = 'demo.html';
+            
         } else {
             document.getElementById('message').innerHTML = 'Invalid email or password!';
             document.getElementById('message').style.backgroundColor = 'red';
@@ -27,6 +28,12 @@
 </script>
 </head>
 <body>
+    <!-- <header> -->
+    <!-- <h1>TK Holidays</h1> -->
+<!-- </header> -->
+
+    <div class="container">
+        
         <div class="form">
          <h2>Sign In</h2>
 
@@ -41,5 +48,6 @@
          <button onclick="handclick()" type="submit" >Login</button>
          <div id="message"></div>
     </div>
+</div>
 </body>
 </html>

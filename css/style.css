@@ -7,14 +7,40 @@
 body {
     width: 100%;
     height: 100vh;
+    background-image: url(https://img.freepik.com/free-photo/futuristic-moon-background_23-2150930768.jpg?t=st=1729866077~exp=1729869677~hmac=66cee76c90233642246fbdd7282d9f79dfc3e0d5f10d6728e6085d97c116819e&w=996);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+/* header { */
+    /* width: 100%; */
+    /* height: 10%; */
+    /* background-color: rgba(255, 255, 255, 0.9) transparent; */
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+    /* backdrop-filter: blur(2px); */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items: center; */
+/*      */
+/* } */
+/* header h1 { */
+    /* font-size: 40px; */
+    /* font-weight: bold; */
+    /* color: #333; */
+    /* font-family:serif ; */
+/* } */
+.container {
+    width: 100%;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: "Poppins", sans-serif;
-
-    background-image: url(https://img.freepik.com/free-photo/futuristic-moon-background_23-2150930768.jpg?t=st=1729866077~exp=1729869677~hmac=66cee76c90233642246fbdd7282d9f79dfc3e0d5f10d6728e6085d97c116819e&w=996);
-    background-size: cover;
-    background-position: center;
 }
 
 .form {
@@ -87,5 +113,5 @@ button {
 
 button:hover {
     background: linear-gradient(45deg, #007dff, #00bae0);
-    
+
 }
